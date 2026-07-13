@@ -1,0 +1,453 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="nOaf2joKewNE2XUzHZ0d" name="Flow Chart">
+    <mxGraphModel dx="3884" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="l244t05eFtgxSoLV5kOr-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=left;" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; padding: 0px;&quot;&gt;&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;/blockquote&gt;" vertex="1">
+          <mxGeometry height="600" width="750" x="-1545" y="1610" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=left;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; padding: 0px;&quot;&gt;&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;/blockquote&gt;" vertex="1">
+          <mxGeometry height="540" width="750" x="-1545" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=left;" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; padding: 0px;&quot;&gt;&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;/blockquote&gt;" vertex="1">
+          <mxGeometry height="351" width="750" x="-1545" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="XEWA5M5i7t0IZvlOih9_-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="&lt;h1&gt;&lt;font face=&quot;Tahoma&quot; style=&quot;font-size: 40px;&quot;&gt;Flow Chart&lt;/font&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="60" width="750" x="-1540" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=left;" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; padding: 0px;&quot;&gt;&lt;br&gt;&lt;/blockquote&gt;" vertex="1">
+          <mxGeometry height="520" width="750" x="-1545" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-49" edge="1" parent="1" source="l244t05eFtgxSoLV5kOr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="l244t05eFtgxSoLV5kOr-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-50" connectable="0" parent="l244t05eFtgxSoLV5kOr-49" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Raw JSON Triplets \((u, r, v)\)" vertex="1">
+          <mxGeometry relative="1" x="0.3519" y="1" as="geometry">
+            <mxPoint x="-1" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-14" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="Fetch Citation Data form OpenAlex API" vertex="1">
+          <mxGeometry height="90" width="170" x="-1240" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-51" edge="1" parent="1" source="l244t05eFtgxSoLV5kOr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="l244t05eFtgxSoLV5kOr-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-52" connectable="0" parent="l244t05eFtgxSoLV5kOr-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Heterogenous Adjacancy Matrix" vertex="1">
+          <mxGeometry relative="1" x="0.3556" as="geometry">
+            <mxPoint y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="Graph Constructor: Convert JSON triplets \((u, r, v)\) into Heterogenous Citation Graph" vertex="1">
+          <mxGeometry height="90" width="140" x="-1225" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-54" edge="1" parent="1" source="l244t05eFtgxSoLV5kOr-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="l244t05eFtgxSoLV5kOr-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wD_lmlghDrkkEkPZdmAn-14" connectable="0" parent="l244t05eFtgxSoLV5kOr-54" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Structured Graph Object" vertex="1">
+          <mxGeometry relative="1" x="-0.2891" as="geometry">
+            <mxPoint x="-1" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="Metadata Extraction: Segment nodes into Authors, Papers and Sources" vertex="1">
+          <mxGeometry height="90" width="140" x="-1225" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-19" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="140" x="-1225" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-13" parent="l244t05eFtgxSoLV5kOr-19" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="Trigger: Journal Evaluation Request" vertex="1">
+          <mxGeometry height="90" width="140" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-15" parent="l244t05eFtgxSoLV5kOr-19" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="START" vertex="1">
+          <mxGeometry height="33.75" width="70" x="35" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-63" edge="1" parent="1" source="l244t05eFtgxSoLV5kOr-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="l244t05eFtgxSoLV5kOr-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1340" y="935" />
+              <mxPoint x="-1340" y="850" />
+              <mxPoint x="-1283" y="850" />
+            </Array>
+            <mxPoint x="-1375.000000000001" y="1135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-66" connectable="0" parent="l244t05eFtgxSoLV5kOr-63" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Attention Weights \((\alpha_{uv} = \kappa_{uv})\)" vertex="1">
+          <mxGeometry relative="1" x="-0.5861" y="-4" as="geometry">
+            <mxPoint x="6" y="-43" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-68" edge="1" parent="1" source="l244t05eFtgxSoLV5kOr-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="l244t05eFtgxSoLV5kOr-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wD_lmlghDrkkEkPZdmAn-13" connectable="0" parent="l244t05eFtgxSoLV5kOr-68" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Geometric Vector \(\kappa_e\)" vertex="1">
+          <mxGeometry relative="1" x="0.3702" y="1" as="geometry">
+            <mxPoint x="-94" y="-104" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Calculate Ollivier-Ricci Curvature \(\kappa\) for every edge using Wasserstein Distance" vertex="1">
+          <mxGeometry height="90" width="140" x="-1495" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-69" edge="1" parent="1" source="l244t05eFtgxSoLV5kOr-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="l244t05eFtgxSoLV5kOr-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wD_lmlghDrkkEkPZdmAn-10" connectable="0" parent="l244t05eFtgxSoLV5kOr-69" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Neural Vector \(\gamma_{gcn}\)" vertex="1">
+          <mxGeometry relative="1" x="-0.4702" y="2" as="geometry">
+            <mxPoint x="-2" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Initialize Node Embeddings from OpenAlex metadata" vertex="1">
+          <mxGeometry height="90" width="140" x="-1318" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-70" edge="1" parent="1" source="l244t05eFtgxSoLV5kOr-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="l244t05eFtgxSoLV5kOr-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wD_lmlghDrkkEkPZdmAn-12" connectable="0" parent="l244t05eFtgxSoLV5kOr-70" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Temporal Decay \(\delta_{temp}\)" vertex="1">
+          <mxGeometry relative="1" x="-0.6989" y="1" as="geometry">
+            <mxPoint x="-1" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Temporal Encoding: Calculate citation velocity and identy &quot;Sleeping Beauties&quot; or &quot;Burst&quot;" vertex="1">
+          <mxGeometry height="90" width="140" x="-1138" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-71" edge="1" parent="1" source="l244t05eFtgxSoLV5kOr-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="l244t05eFtgxSoLV5kOr-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wD_lmlghDrkkEkPZdmAn-11" connectable="0" parent="l244t05eFtgxSoLV5kOr-71" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Semantic Context \(\theta_{sem}\)" vertex="1">
+          <mxGeometry relative="1" x="-0.7914" y="2" as="geometry">
+            <mxPoint x="4" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="NLP Embedding: Compute Cosine Similarity between document abstracts to detect Semantic Drift" vertex="1">
+          <mxGeometry height="90" width="140" x="-955" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-72" edge="1" parent="1" source="l244t05eFtgxSoLV5kOr-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="l244t05eFtgxSoLV5kOr-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wD_lmlghDrkkEkPZdmAn-15" connectable="0" parent="l244t05eFtgxSoLV5kOr-72" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Fused Feature Vector \((Z_e = [\kappa_e \oplus \gamma_{gcn} \oplus \delta_{temp} \oplus \theta_{sem}])\)" vertex="1">
+          <mxGeometry relative="1" x="-0.3011" y="1" as="geometry">
+            <mxPoint x="-1" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Concatenation: Fuse signals into Multi-Modal Feature Vector \((Z_E)\)" vertex="1">
+          <mxGeometry height="90" width="140" x="-1225" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-73" edge="1" parent="1" source="l244t05eFtgxSoLV5kOr-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="l244t05eFtgxSoLV5kOr-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-74" connectable="0" parent="l244t05eFtgxSoLV5kOr-73" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Probabilistic Weight \((w_e \in (0, 1))\)" vertex="1">
+          <mxGeometry relative="1" x="0.398" y="2" as="geometry">
+            <mxPoint x="-2" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Neural Audit: Pass \(Z_e\) through the Citation Trust Head (Sigmoid Layer)" vertex="1">
+          <mxGeometry height="90" width="140" x="-1225" y="1311" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-33" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Assign Soft-Weighted Trust Score \(w_e \in (0, 1)\) to each citation edge" vertex="1">
+          <mxGeometry height="105" width="180" x="-1245" y="1444" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-75" edge="1" parent="1" source="l244t05eFtgxSoLV5kOr-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="l244t05eFtgxSoLV5kOr-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mrCiUBLbFkHoW6m3uCb9-24" connectable="0" parent="l244t05eFtgxSoLV5kOr-75" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Weighted Edge List" vertex="1">
+          <mxGeometry relative="1" x="-0.3482" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-76" edge="1" parent="1" source="l244t05eFtgxSoLV5kOr-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="l244t05eFtgxSoLV5kOr-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wD_lmlghDrkkEkPZdmAn-16" connectable="0" parent="l244t05eFtgxSoLV5kOr-76" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Raw CAIF Score" vertex="1">
+          <mxGeometry relative="1" x="0.0974" y="2" as="geometry">
+            <mxPoint x="-2" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Summation: Aggregate \(w_e\) to calculate the raw CAIF score" vertex="1">
+          <mxGeometry height="90" width="140" x="-1225" y="1698" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-77" edge="1" parent="1" source="l244t05eFtgxSoLV5kOr-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="l244t05eFtgxSoLV5kOr-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wD_lmlghDrkkEkPZdmAn-18" connectable="0" parent="l244t05eFtgxSoLV5kOr-77" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Normalized Score (NCAIF)" vertex="1">
+          <mxGeometry relative="1" x="-0.2447" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Field Normalization: Divide raw CAIF by \(\mu_{field}\) for the final NCAIF score" vertex="1">
+          <mxGeometry height="90" width="140" x="-1225" y="1828" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-43" edge="1" parent="1" source="l244t05eFtgxSoLV5kOr-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="l244t05eFtgxSoLV5kOr-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1160.333333333333" y="2300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-44" connectable="0" parent="l244t05eFtgxSoLV5kOr-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.3202" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-46" edge="1" parent="1" source="l244t05eFtgxSoLV5kOr-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="l244t05eFtgxSoLV5kOr-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-47" connectable="0" parent="l244t05eFtgxSoLV5kOr-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.297" y="2" as="geometry">
+            <mxPoint x="-8" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-37" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Is result statistically significant?" vertex="1">
+          <mxGeometry height="90" width="140" x="-1225" y="1958" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-78" edge="1" parent="1" source="l244t05eFtgxSoLV5kOr-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="l244t05eFtgxSoLV5kOr-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1600" y="2003" />
+              <mxPoint x="-1600" y="1356" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mrCiUBLbFkHoW6m3uCb9-23" connectable="0" parent="l244t05eFtgxSoLV5kOr-78" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="System Re-calibration" vertex="1">
+          <mxGeometry relative="1" x="-0.6467" y="-3" as="geometry">
+            <mxPoint x="-13" y="26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Run &quot;Null Modal Validation(Z-Score analysis)" vertex="1">
+          <mxGeometry height="90" width="140" x="-1440" y="1958" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-48" edge="1" parent="1" source="l244t05eFtgxSoLV5kOr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="l244t05eFtgxSoLV5kOr-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-55" edge="1" parent="1" source="l244t05eFtgxSoLV5kOr-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1120" y="820" />
+              <mxPoint x="-1070" y="820" />
+            </Array>
+            <mxPoint x="-1070" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-61" connectable="0" parent="l244t05eFtgxSoLV5kOr-55" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Citation Timestamps" vertex="1">
+          <mxGeometry relative="1" x="0.2974" y="-1" as="geometry">
+            <mxPoint x="1" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-56" edge="1" parent="1" source="l244t05eFtgxSoLV5kOr-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="l244t05eFtgxSoLV5kOr-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-59" connectable="0" parent="l244t05eFtgxSoLV5kOr-56" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Edge Topology" vertex="1">
+          <mxGeometry relative="1" x="-0.1604" y="2" as="geometry">
+            <mxPoint x="-64" y="43" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-57" edge="1" parent="1" source="l244t05eFtgxSoLV5kOr-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="l244t05eFtgxSoLV5kOr-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1190" y="820" />
+              <mxPoint x="-1248" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-60" connectable="0" parent="l244t05eFtgxSoLV5kOr-57" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Initial Feature Matrix" vertex="1">
+          <mxGeometry relative="1" x="-0.3928" as="geometry">
+            <mxPoint x="-41" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-58" edge="1" parent="1" source="l244t05eFtgxSoLV5kOr-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="l244t05eFtgxSoLV5kOr-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-62" connectable="0" parent="l244t05eFtgxSoLV5kOr-58" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Abstract Text" vertex="1">
+          <mxGeometry relative="1" x="0.5539" y="1" as="geometry">
+            <mxPoint x="-1" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-53" parent="1" style="rhombus;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Feature&lt;div&gt;Broadcast&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="140" x="-1225" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-80" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=0;strokeColor=default;fontSize=16;swimlaneFillColor=default;perimeterSpacing=2;noLabel=0;rounded=1;shadow=1;strokeWidth=2;" value="Flow Chart - Shape Legend" vertex="1">
+          <mxGeometry height="200" width="440" x="-2030" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-81" parent="l244t05eFtgxSoLV5kOr-80" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;noLabel=0;" value="" vertex="1">
+          <mxGeometry height="30" width="440" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-82" parent="l244t05eFtgxSoLV5kOr-81" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;align=center;noLabel=0;" value="Oval&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="160" as="geometry">
+            <mxRectangle height="30" width="160" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-83" parent="l244t05eFtgxSoLV5kOr-81" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;noLabel=0;" value="Terminal (START/END)" vertex="1">
+          <mxGeometry height="30" width="280" x="160" as="geometry">
+            <mxRectangle height="30" width="280" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-84" parent="l244t05eFtgxSoLV5kOr-80" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;noLabel=0;" value="" vertex="1">
+          <mxGeometry height="30" width="440" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-85" parent="l244t05eFtgxSoLV5kOr-84" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;align=center;noLabel=0;" value="Rectangle" vertex="1">
+          <mxGeometry height="30" width="160" as="geometry">
+            <mxRectangle height="30" width="160" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-86" parent="l244t05eFtgxSoLV5kOr-84" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;noLabel=0;" value="Process" vertex="1">
+          <mxGeometry height="30" width="280" x="160" as="geometry">
+            <mxRectangle height="30" width="280" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-87" parent="l244t05eFtgxSoLV5kOr-80" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;noLabel=0;" value="" vertex="1">
+          <mxGeometry height="30" width="440" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-88" parent="l244t05eFtgxSoLV5kOr-87" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;align=center;noLabel=0;" value="Parallelogram" vertex="1">
+          <mxGeometry height="30" width="160" as="geometry">
+            <mxRectangle height="30" width="160" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-89" parent="l244t05eFtgxSoLV5kOr-87" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;noLabel=0;" value="Input/Output" vertex="1">
+          <mxGeometry height="30" width="280" x="160" as="geometry">
+            <mxRectangle height="30" width="280" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-98" parent="l244t05eFtgxSoLV5kOr-80" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;noLabel=0;" vertex="1">
+          <mxGeometry height="50" width="440" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-99" parent="l244t05eFtgxSoLV5kOr-98" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;align=center;noLabel=0;" value="Rhombus (diamond)" vertex="1">
+          <mxGeometry height="50" width="160" as="geometry">
+            <mxRectangle height="50" width="160" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-100" parent="l244t05eFtgxSoLV5kOr-98" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;noLabel=0;" value="Decision" vertex="1">
+          <mxGeometry height="50" width="280" x="160" as="geometry">
+            <mxRectangle height="50" width="280" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-101" parent="l244t05eFtgxSoLV5kOr-80" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;noLabel=0;" vertex="1">
+          <mxGeometry height="30" width="440" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-102" parent="l244t05eFtgxSoLV5kOr-101" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;align=center;noLabel=0;" value="Arrow" vertex="1">
+          <mxGeometry height="30" width="160" as="geometry">
+            <mxRectangle height="30" width="160" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-103" parent="l244t05eFtgxSoLV5kOr-101" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;noLabel=0;" value="Flowline" vertex="1">
+          <mxGeometry height="30" width="280" x="160" as="geometry">
+            <mxRectangle height="30" width="280" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-116" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=0;strokeColor=default;fontSize=16;swimlaneFillColor=default;perimeterSpacing=2;noLabel=0;rounded=1;shadow=1;strokeWidth=2;" value="Flow Chart - Color Legend" vertex="1">
+          <mxGeometry height="240" width="440" x="-2030" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-117" parent="l244t05eFtgxSoLV5kOr-116" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;noLabel=0;" value="" vertex="1">
+          <mxGeometry height="30" width="440" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-118" parent="l244t05eFtgxSoLV5kOr-117" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#f5f5f5;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=#666666;fontSize=16;align=center;fontColor=#333333;noLabel=0;" value="Grey" vertex="1">
+          <mxGeometry height="30" width="160" as="geometry">
+            <mxRectangle height="30" width="160" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-119" parent="l244t05eFtgxSoLV5kOr-117" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;noLabel=0;" value="Data Management &amp;amp; Infrastructure" vertex="1">
+          <mxGeometry height="30" width="280" x="160" as="geometry">
+            <mxRectangle height="30" width="280" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-120" parent="l244t05eFtgxSoLV5kOr-116" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;noLabel=0;" value="" vertex="1">
+          <mxGeometry height="30" width="440" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-121" parent="l244t05eFtgxSoLV5kOr-120" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#d5e8d4;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=#82b366;fontSize=16;align=center;noLabel=0;" value="Green" vertex="1">
+          <mxGeometry height="30" width="160" as="geometry">
+            <mxRectangle height="30" width="160" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-122" parent="l244t05eFtgxSoLV5kOr-120" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;noLabel=0;" value="Mathematical &amp;amp; Geometric Analysis" vertex="1">
+          <mxGeometry height="30" width="280" x="160" as="geometry">
+            <mxRectangle height="30" width="280" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-123" parent="l244t05eFtgxSoLV5kOr-116" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;noLabel=0;" value="" vertex="1">
+          <mxGeometry height="30" width="440" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-124" parent="l244t05eFtgxSoLV5kOr-123" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=#6c8ebf;fontSize=16;align=center;noLabel=0;" value="Blue" vertex="1">
+          <mxGeometry height="30" width="160" as="geometry">
+            <mxRectangle height="30" width="160" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-125" parent="l244t05eFtgxSoLV5kOr-123" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;noLabel=0;" value="Neural Networks &amp;amp; Machine Learning" vertex="1">
+          <mxGeometry height="30" width="280" x="160" as="geometry">
+            <mxRectangle height="30" width="280" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-126" parent="l244t05eFtgxSoLV5kOr-116" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;noLabel=0;" vertex="1">
+          <mxGeometry height="30" width="440" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-127" parent="l244t05eFtgxSoLV5kOr-126" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#e1d5e7;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=#9673a6;fontSize=16;align=center;noLabel=0;" value="Purple" vertex="1">
+          <mxGeometry height="30" width="160" as="geometry">
+            <mxRectangle height="30" width="160" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-128" parent="l244t05eFtgxSoLV5kOr-126" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;noLabel=0;" value="Contextual &amp;amp; Temporal Features" vertex="1">
+          <mxGeometry height="30" width="280" x="160" as="geometry">
+            <mxRectangle height="30" width="280" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-129" parent="l244t05eFtgxSoLV5kOr-116" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;noLabel=0;" vertex="1">
+          <mxGeometry height="30" width="440" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-130" parent="l244t05eFtgxSoLV5kOr-129" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=#d6b656;fontSize=16;align=center;noLabel=0;" value="Brown" vertex="1">
+          <mxGeometry height="30" width="160" as="geometry">
+            <mxRectangle height="30" width="160" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-131" parent="l244t05eFtgxSoLV5kOr-129" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;noLabel=0;" value="Logic Fusion &amp;amp; Data Broadcast" vertex="1">
+          <mxGeometry height="30" width="280" x="160" as="geometry">
+            <mxRectangle height="30" width="280" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-132" parent="l244t05eFtgxSoLV5kOr-116" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;noLabel=0;" vertex="1">
+          <mxGeometry height="30" width="440" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-133" parent="l244t05eFtgxSoLV5kOr-132" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffe6cc;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=#d79b00;fontSize=16;align=center;noLabel=0;" value="Orange" vertex="1">
+          <mxGeometry height="30" width="160" as="geometry">
+            <mxRectangle height="30" width="160" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-134" parent="l244t05eFtgxSoLV5kOr-132" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;noLabel=0;" value="Decision &amp;amp; Branching Logic" vertex="1">
+          <mxGeometry height="30" width="280" x="160" as="geometry">
+            <mxRectangle height="30" width="280" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-135" parent="l244t05eFtgxSoLV5kOr-116" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;noLabel=0;" vertex="1">
+          <mxGeometry height="30" width="440" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-136" parent="l244t05eFtgxSoLV5kOr-135" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#f8cecc;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=#b85450;fontSize=16;align=center;noLabel=0;" value="Red" vertex="1">
+          <mxGeometry height="30" width="160" as="geometry">
+            <mxRectangle height="30" width="160" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-137" parent="l244t05eFtgxSoLV5kOr-135" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;noLabel=0;" value="Metrics, Validation &amp;amp; Final Output" vertex="1">
+          <mxGeometry height="30" width="280" x="160" as="geometry">
+            <mxRectangle height="30" width="280" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wD_lmlghDrkkEkPZdmAn-9" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="140" x="-1225" y="2100" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-39" parent="wD_lmlghDrkkEkPZdmAn-9" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="Publish Verified Journal Integrity Score" vertex="1">
+          <mxGeometry height="90" width="140" as="geometry" />
+        </mxCell>
+        <mxCell id="l244t05eFtgxSoLV5kOr-40" parent="wD_lmlghDrkkEkPZdmAn-9" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="END" vertex="1">
+          <mxGeometry height="30" width="60" x="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GDvkkeiaX6oj91aJBt5-9" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;h3 class=&quot;text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold&quot; style=&quot;text-align: center;&quot;&gt;PHASE 1 - Data Acquisition &amp;amp; Pre-processing&lt;/h3&gt;&lt;br&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;Trigger:&lt;/strong&gt; Journal Evaluation Request (START)&lt;/p&gt;&lt;div&gt;&lt;div&gt;&lt;div class=&quot;standard-markdown grid-cols-1 grid [&amp;amp;_&amp;gt;_*]:min-w-0 gap-3&quot;&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;1.1 - OpenAlex API - Raw Data Source&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;standard-markdown grid-cols-1 grid [&amp;amp;_&amp;gt;_*]:min-w-0 gap-3&quot;&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Input: Journal name + citation window (e.g. 2022–2023) + field scope.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;standard-markdown grid-cols-1 grid [&amp;amp;_&amp;gt;_*]:min-w-0 gap-3&quot;&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Output: Raw JSON objects containing paper IDs, author lists, journal IDs, abstract text, publication dates, and citation links.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;standard-markdown grid-cols-1 grid [&amp;amp;_&amp;gt;_*]:min-w-0 gap-3&quot;&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;What it does: Fetches the raw citation network from OpenAlex - papers, authors, journals, and all their citation relationships with timestamps.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;standard-markdown grid-cols-1 grid [&amp;amp;_&amp;gt;_*]:min-w-0 gap-3&quot;&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;How it does: Sends a sequence of HTTP GET requests to the OpenAlex REST API. First queries the endpoint filtered by journal ID and publication year to retrieve all papers published in the target journal within the citation window. Then for each paper, queries cites of a journal to pull all works that cited it. Finally resolves authors and sources endpoints to attach author and journal metadata to each heterogenous node. Returns JSON responses that are parsed into structured records.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;1.2 - Graph Constructor&lt;/strong&gt;&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Input: Raw JSON responses from the OpenAlex API.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Output: Heterogeneous Adjacency Matrix and Structured Graph Object with three node classes and three edge classes.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;What it does: Converts the raw JSON API responses into a structured Heterogeneous Citation Graph where nodes have distinct types - Paper (W), Author (A), Journal (S) - and edges have distinct relationship types.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;How it does: Parses every JSON record into typed triplets (u, r, v) where u is the source node ID, r is the relationship type (cites / authored_by / published_in), and v is the target node ID. Builds a heterogeneous adjacency matrix by instantiating each triplet as a directed typed edge. Deduplicates nodes and indexes them by type into three separate node registries.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;1.3 - Metadata Extraction&lt;/strong&gt;&lt;/p&gt;&lt;div&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Input: Structured Graph Object from the Graph Constructor.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Output: Four typed parallel data streams - Citation Timestamps, Edge Topology, Initial Feature Matrix, Abstract Text.&lt;/p&gt;&lt;/div&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;What it does: Segments the graph nodes by type and attaches all available metadata fields to each node, producing four typed data streams that the Phase 2 extractors will operate on independently.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;How it does: Iterates through the node registry and partitions nodes into Author, Paper, and Journal buckets. For each Paper node, extracts and attaches: publication_year and cited_by timestamps (→ Citation Timestamps stream), adjacency list (→ Edge Topology stream), OpenAlex concept embeddings and author IDs (→ Initial Feature Matrix stream), and the abstract_inverted_index field decoded back to plain text (→ Abstract Text stream). These four streams are then broadcast in parallel to Phase 2.&lt;/p&gt;&lt;/div&gt;&lt;ul class=&quot;[li_&amp;amp;]:mb-0 [li_&amp;amp;]:mt-1 [li_&amp;amp;]:gap-1 [&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3&quot;&gt;&lt;br&gt;&lt;/ul&gt;&lt;h4 class=&quot;text-text-100 mt-2 -mb-1 text-base font-bold&quot;&gt;&lt;br&gt;&lt;/h4&gt;&lt;div&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;Phase 1 Summary&lt;/strong&gt;&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;In: Journal evaluation request - name, citation window, field scope.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Out: Typed heterogeneous citation graph broadcast as four parallel feature streams.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Next: All four streams feed simultaneously into the four parallel extractors in Phase 2.&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;overflow-x-auto w-full px-2 mb-6&quot;&gt;&lt;div&gt;&lt;div class=&quot;standard-markdown grid-cols-1 grid [&amp;amp;_&amp;gt;_*]:min-w-0 gap-3&quot;&gt;&lt;h3 class=&quot;text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold&quot; style=&quot;text-align: center;&quot;&gt;PHASE 2 — Multi-Modal Feature Extraction&lt;/h3&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;standard-markdown grid-cols-1 grid [&amp;amp;_&amp;gt;_*]:min-w-0 gap-3&quot;&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Four extractors run in parallel on the graph from Phase 1.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;div class=&quot;standard-markdown grid-cols-1 grid [&amp;amp;_&amp;gt;_*]:min-w-0 gap-3&quot;&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;2.1 - ORC Computation (Geometric)&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;standard-markdown grid-cols-1 grid [&amp;amp;_&amp;gt;_*]:min-w-0 gap-3&quot;&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Input: Edge Topology stream from Phase 1.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;standard-markdown grid-cols-1 grid [&amp;amp;_&amp;gt;_*]:min-w-0 gap-3&quot;&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Output: Geometric Vector κ_e per edge, and Attention Weights α_uv (A parameter that is used when updating a paper representation - that tells how much attention should the neighbour in this edge should get) fed directly to the GCN.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;standard-markdown grid-cols-1 grid [&amp;amp;_&amp;gt;_*]:min-w-0 gap-3&quot;&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;What it does: Measures the shape of the neighbourhood around each citation. If two papers share many common neighbours, the citation sits inside a tight cluster - a good sign. If they share almost none, the citation is a loose bridge between unrelated parts of the network - a warning sign.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;standard-markdown grid-cols-1 grid [&amp;amp;_&amp;gt;_*]:min-w-0 gap-3&quot;&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;How it does:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;For each citation edge, looks at the neighbours of both the citing and cited paper and measures how different those two neighbourhoods are using a distance formula called Wasserstein distance. Plugs the result into κ = 1 − W / d. A positive or near-zero score means a tight, coherent neighbourhood. A strongly negative score flags a suspicious or isolated link. These scores are also passed straight to the GCN to control how it weighs each connection.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;standard-markdown grid-cols-1 grid [&amp;amp;_&amp;gt;_*]:min-w-0 gap-3&quot;&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;2.2 - ORCA-Style GCN (Neural Network)&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;standard-markdown grid-cols-1 grid [&amp;amp;_&amp;gt;_*]:min-w-0 gap-3&quot;&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Input: Initial Feature Matrix from Phase 1 and Attention Weights α_uv from ORC Computation.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;standard-markdown grid-cols-1 grid [&amp;amp;_&amp;gt;_*]:min-w-0 gap-3&quot;&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Output: Neural Vector γ_gcn per edge (embedding consistency score).&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;standard-markdown grid-cols-1 grid [&amp;amp;_&amp;gt;_*]:min-w-0 gap-3&quot;&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;What it does: Runs curvature-weighted graph convolution to learn a vector representation for each paper that reflects both its content and its structural position in the citation graph, then produces an embedding consistency score per citation edge.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;standard-markdown grid-cols-1 grid [&amp;amp;_&amp;gt;_*]:min-w-0 gap-3&quot;&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;How it does:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Starts with each paper&#39;s topic tags from OpenAlex as its initial position. Runs several rounds of message passing where each paper updates its position by averaging the positions of its neighbours — but uses the curvature scores from 2.1 to give more weight to well-connected neighbours and less to bridge-like ones. After all rounds are done, computes the similarity between the two paper positions for each citation edge.&lt;/span&gt;&lt;/p&gt;&lt;br&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;em&gt;This follows the logic established in Li et al.&#39;s Curvature Graph Neural Network, which showed that injecting graph curvature into message passing improves adaptive aggregation. (Li et al., &quot;Curvature Graph Neural Network,&quot; Information Sciences, 2022)&lt;/em&gt;&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;standard-markdown grid-cols-1 grid [&amp;amp;_&amp;gt;_*]:min-w-0 gap-3&quot;&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;2.3 - Temporal Encoder (Contextual)&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;standard-markdown grid-cols-1 grid [&amp;amp;_&amp;gt;_*]:min-w-0 gap-3&quot;&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Input:  Publication dates and citation dates for every paper (Citation Timestamps stream).&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;standard-markdown grid-cols-1 grid [&amp;amp;_&amp;gt;_*]:min-w-0 gap-3&quot;&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Output: A timing score δ_temp for every citation edge.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;standard-markdown grid-cols-1 grid [&amp;amp;_&amp;gt;_*]:min-w-0 gap-3&quot;&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;What it does: Checks whether the timing of each citation makes sense, and flags any unusual patterns like citations appearing suspiciously fast or suspiciously late.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;standard-markdown grid-cols-1 grid [&amp;amp;_&amp;gt;_*]:min-w-0 gap-3&quot;&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;How it does: Uses a decay formula - the further apart the publication dates, the lower the score, at a rate tuned per research field. Also hard-blocks any citation where the citing paper is older than the cited paper, which is impossible. The document proposes implementing this through yearly citation snapshots or a temporal GNN memory update that processes citation events as they arrive.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;The methodological reference for event-level temporal updates is Shen et al., which shows that temporal GNNs can update paper embeddings in real time as new citation events arrive in a dynamic citation network. (Shen et al., &quot;Temporal Graph Neural Network-Powered Paper Recommendation on Dynamic Citation Networks,&quot; arXiv, 2024)&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;2.4 - Semantic NLP (Contextual)&lt;/strong&gt;&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Input: The abstract text of every paper (Abstract Text stream).&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Output: A topic similarity score θ_sem for every citation edge.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;What it does: Checks whether the two papers on either end of a citation are actually about related topics. A citation between two unrelated fields is a red flag.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;How it does: Converts each abstract into a dense numerical vector using a language model. Then for each citation, measures the cosine similarity between the two vectors. A score near 1.0 means the papers are about very similar topics. A score near 0 means they are about completely different things, which is the clearest signal of cross-field citation manipulation.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;em&gt;Important: The document marks this component as optional rather than required. It is included because citation-context-enriched indicators have recently shown better alignment with peer assessment than raw citations alone, making the addition methodologically well justified. (Donner and Stahlschmidt, &quot;Does citation context information enhance the validity of citation analysis for measuring research quality?&quot;, Quantitative Science Studies, 2025)&lt;/em&gt;&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;em&gt;&lt;br&gt;&lt;/em&gt;&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;2.5 - Concatenation - Multi-Modal Feature Vector&lt;/strong&gt;&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Input: The four scores κ, γ_gcn, δ_temp, θ_sem - one set per citation edge.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Output: A single combined feature vector Z_e per citation edge.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;What it does: Merges the four separate scores into one vector so the next phase can work with everything at once.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;How it does: Simply joins the four values end-to-end into one list: Z_e = [κ, γ_gcn, δ_temp, θ_sem]. No weighting happens here — the next phase learns which scores matter most during training.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;Phase 2 Summary&lt;/strong&gt;&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;In: Four data streams from Phase 1 - connections, timestamps, topic features, abstract text.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Out: One combined feature vector Z_e per citation edge covering geometry, learned embeddings, timing, and topic similarity.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Next: Each Z_e goes into the Citation Trust Head in Phase 3 to get a final trust score.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;h4 class=&quot;text-text-100 mt-2 -mb-1 text-base font-bold&quot; style=&quot;text-align: center;&quot;&gt;PHASE 3 — Fusion &amp;amp; Auditing Mechanism&lt;/h4&gt;&lt;div&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;3.1 - Neural Audit - Citation Trust Head&lt;/strong&gt;&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Input: The combined feature vector Z_e for each citation edge.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Output: A trust weight w_e between 0 and 1 for every citation edge.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;What it does: Takes all four signals together and produces one final number per citation - how much we trust it. This is the core output of the whole model.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;How it does: Runs Z_e through a learned formula combining all four signals with learned coefficients: w(e) = σ(α₀ + α₁κ(e) + α₂s_GNN(e) + α₃s_temp(e) + α₄s_context(e)). The sigmoid normalizes the result to between 0 and 1. After training, the α coefficients reveal which signal the model found most diagnostic of citation quality.&lt;/p&gt;&lt;br&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;em&gt;The document outlines three possible training strategies for learning these weights. The recommended approach for a first paper is weak supervision combined with self-supervised pretraining. Weak supervision uses proxy labels such as known self-citation regimes, suspicious local reciprocity, known retractions, and anomalous reference-list patterns. Self-supervised pretraining trains the model to reconstruct normal citation neighbourhoods and flag edges with high reconstruction error. (Wren and Georgescu, &quot;Detecting anomalous referencing patterns in PubMed papers suggestive of author-centric reference list manipulation,&quot; Scientometrics, 2022)&lt;/em&gt;&lt;/p&gt;&lt;br&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;3.2 - Assign Trust Scores&lt;/strong&gt;&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Input: The trust weights w_e and the original graph.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Output: The full citation graph with a trust score attached to every edge.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;What it does: Writes the trust score onto every citation edge in the graph so that the aggregation step in Phase 4 can use them.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;How it does: Attaches w_e as a property of each edge. Clean, well-integrated citations end up close to 1.0. Suspicious citations end up close to 0.0. Everything in between is partial trust. The weighted graph then moves to Phase 4.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;Phase 3 Summary&lt;/strong&gt;&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;In: Combined feature vector Z_e per citation edge.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Out: A trust score w_e between 0 and 1 on every citation edge in the graph.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Next: Add up all the trust scores per journal to build the impact score in Phase 4.&lt;/p&gt;&lt;br&gt;&lt;h4 class=&quot;text-text-100 mt-2 -mb-1 text-base font-bold&quot; style=&quot;text-align: center;&quot;&gt;PHASE 4 - Final Impact Calculation &amp;amp; Validation&lt;/h4&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;4.1 - CAIF Calculator — Summation&lt;/strong&gt;&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Input: The trust-weighted citation graph - all w_e values for citations pointing at journal J&#39;s papers.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Output: A raw CAIF score per journal.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;What it does: Adds up all the trust weights for citations received by a journal&#39;s papers to get a quality-adjusted impact score - replacing the traditional approach of just counting citations.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;How it does: For each journal, finds all incoming citations within the date window and adds up their w_e values. Divides by the number of papers the journal published. A citation scoring 0.94 counts almost fully. One scoring 0.22 barely counts. The denominator stays the same as in traditional JIF - only the way citations are counted changes.&lt;/p&gt;&lt;br&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;em&gt;The document frames this as a direct replacement for the Clarivate JCR&#39;s two-year citation/count ratio, which treats every citation as binary - it counts or it does not. CAIF replaces that binary view with a quality weight learned from graph geometry, representation learning, and time. (Clarivate JCR; Safón et al., &quot;Screening articles by citation reputation,&quot; Quantitative Science Studies, 2025)&lt;/em&gt;&lt;/p&gt;&lt;br&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;4.2 - Field Normalization — NCAIF Calculator&lt;/strong&gt;&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Input: The raw CAIF score and citation data from across the field.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Output: A normalized score NCAIF — comparable across fields.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;What it does: Adjusts the raw score so it can be fairly compared across different research fields, which naturally have very different citation rates.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;How it does: The document defines NCAIF by multiplying a per-citation field and year normalization factor n(e) directly into each edge weight before summing, rather than dividing the total after the fact. This separates citation quantity, citation quality, and field comparability into three distinct and auditable components — a design specifically suited for publication in venues like Journal of Informetrics or Quantitative Science Studies.&lt;/p&gt;&lt;br&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;em&gt;This separation of quantity, trust, and comparability is directly motivated by the bibliometric literature on what a defensible journal metric needs to demonstrate. (Donner and Stahlschmidt, QSS, 2025)&lt;/em&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;4.3 - Null Model Validation - Decision Gate&lt;/strong&gt;&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Input: The NCAIF score and a distribution of scores from randomly rewired versions of the graph.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Output: A Z-score and a yes/no decision on whether the result is statistically meaningful.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;What it does: Checks whether the journal&#39;s score is genuinely impressive or just a side effect of its size, field, or age profile. If the score is not clearly better than random, it gets flagged as unreliable.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;How it does: Creates many fake versions of the citation graph where citations are shuffled randomly but everything else - journal sizes, publication dates, field labels, degree sequence, citation age distribution - stays the same. Computes CAIF on each fake graph to build a baseline distribution. Then checks how many standard deviations the real score sits above that baseline using Z_J = (CAIF_obs(J) - μ_null(J)) / σ_null(J). If it clears the threshold, the score is published. If not, it is flagged.&lt;/p&gt;&lt;br&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;em&gt;The document flags this step as crucial, noting that without it reviewers will argue the model is simply rediscovering field or age effects. The null graph preserves publication year, journal size, in/out degree sequence, citation age distribution, and broad field labels — controlling for every &quot;boring&quot; structural reason a journal might look unusual.&lt;/em&gt;&lt;/p&gt;&lt;br&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;4.4 — Publish Verified Journal Integrity Score&lt;/strong&gt;&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Input: NCAIF confirmed by the Z-score test.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Output: A verified journal integrity score — ready to use in place of the traditional JIF.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;What it does: Combines the field-adjusted score and the statistical check into one final metric and publishes it.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;How it does: Reports both NCAIF and the Z-score together. High on both means the journal is genuinely strong. High NCAIF but low Z means the score is probably explained by structural factors, not quality. High NCAIF but negative Z is a warning sign - the journal gets many citations but they look no better than random, which is what citation manipulation looks like.&lt;/p&gt;&lt;br&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;em&gt;The document targets two publication outlets for this work: one paper on the method itself, and a second on the bibliometric case study. The suggested baselines to beat are classical two-year IF, self-citation-excluded IF, PageRank and Eigenfactor-style centrality, citation reputation screening, and semantic citation indicators. (Safón et al., QSS, 2025; Wren and Georgescu, Scientometrics, 2022; Li et al., Information Sciences, 2022)&lt;/em&gt;&lt;/p&gt;&lt;br&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;Phase 4 Summary&lt;/strong&gt;&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;In: Trust-weighted citation graph and field-wide citation data from OpenAlex.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Out: A verified journal integrity score - NCAIF backed by a statistical significance test.&lt;/p&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;Next: Publication. One paper on the method, one on the bibliometric case study.&lt;/p&gt;&lt;/div&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="5960" width="570" x="-750" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="mrCiUBLbFkHoW6m3uCb9-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=default;" value="&lt;h1 style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;Phase 2: Multi-Modal Feature Extraction&lt;/span&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="30" width="460" x="-1497" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="mrCiUBLbFkHoW6m3uCb9-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=default;" value="&lt;h1 style=&quot;text-align: left;&quot;&gt;Phase 3: Auditing Mechanism&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="30" width="360" x="-1500" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="mrCiUBLbFkHoW6m3uCb9-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=default;" value="&lt;h1 style=&quot;text-align: left;&quot;&gt;Phase 4: Final Impact Calculation &amp;amp; Validation&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="30" width="570" x="-1500" y="1630" as="geometry" />
+        </mxCell>
+        <mxCell id="mrCiUBLbFkHoW6m3uCb9-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="&lt;h1 style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;Phase 1: Data Aquisition &amp;amp; Pre-processing&lt;/span&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="30" width="510" x="-1500" y="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
