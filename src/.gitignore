@@ -13,3 +13,9 @@ edge_audit.parquet
 sweep.csv
 test_report.json
 .ipynb_checkpoints/
+
+# Local dev environments (machine-specific, never portable across contributors)
+.venv/
+venv/
+__pycache__/
+*.pyc
